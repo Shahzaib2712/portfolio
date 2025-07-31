@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.shahzaibkhan.online/sitemap.xml
+
+# Disallow access to sensitive files
+Disallow: /process_contact.php
+Disallow: /config.php
+Disallow: /test_contact.php
+Disallow: /.htaccess
+Disallow: /README.md
+
+# Allow CSS, JS, and images
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Crawl delay (optional - be respectful to server resources)
+Crawl-delay: 1
